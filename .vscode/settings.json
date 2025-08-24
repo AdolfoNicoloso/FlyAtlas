@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
+
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+
+  "tailwindCSS.classAttributes": ["class", "className"],
+  "editor.quickSuggestions": { "strings": true },
+
+  "search.exclude": {
+    "**/node_modules": true, "**/.expo": true, "**/dist": true, "**/.git": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true, "**/.expo/**": true
+  }
+}
