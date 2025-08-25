@@ -1,6 +1,6 @@
 {
   "expo": {
-    "plugins": [["expo-router", { "appRoot": "./src/app" }]],
+    "plugins": ["expo-router"],
     "name": "FlyAtlas",
     "slug": "FlyAtlas",
     "version": "1.0.0",
