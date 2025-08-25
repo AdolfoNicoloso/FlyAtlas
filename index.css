@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base app “theme” */
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-fly-bg text-fly-text antialiased;
+  }
+}
+
+/* Small helpers */
+@layer components {
+  .container-page {
+    @apply max-w-5xl mx-auto px-4 py-8;
+  }
+  .nav-link {
+    @apply px-3 py-2 rounded-xl text-sm font-medium text-fly-muted hover:text-fly-text hover:bg-white/5 transition;
+  }
+  .nav-link-active {
+    @apply text-fly-text bg-white/10;
+  }
+}
